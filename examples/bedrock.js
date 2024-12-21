@@ -9,7 +9,6 @@ const bot = mineflayer.createBot({
 // Event listener to log when the bot connects
 bot.on('spawn', () => {
     console.log('Bot spawned!');
-    stopEverything();
 });
 
 // Log errors
